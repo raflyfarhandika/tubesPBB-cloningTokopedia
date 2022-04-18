@@ -4,6 +4,9 @@ import 'package:tokopedia_clone/components/theme.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/services.dart';
+import 'package:tokopedia_clone/screen/cart.dart';
+import 'package:tokopedia_clone/screen/feed.dart';
+import 'package:tokopedia_clone/screen/akun.dart';
 
 class MainPage extends StatefulWidget {
   @override 
@@ -39,11 +42,11 @@ class _MainPageState extends State<MainPage> {
                   });
                 },
                 children: [
-                  /*HomePage(),
-                  FeedPage(),
-                  OfficialStorePage(),
-                  KeranjangPage(),
-                  AkunPage(), */
+                  //HomePage(),
+                  //FeedPage(),
+                  //OfficialStorePage(),
+                  CartPage(),
+                  AkunPage(),
                 ],
               ),
             ),
